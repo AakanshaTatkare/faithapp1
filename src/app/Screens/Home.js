@@ -3,7 +3,7 @@ import Navbar from "@/app/Screens/Navbar";
 import React from "react";
 import "./Home.css";
 import TextCarousel from "./textcarousel"; 
-import courseData from "./data/course.json";
+import courseData from "./data/Course.json";
 
 const Home = () => {
   const { instructor, course, about_instructor, testimonial } = courseData;
