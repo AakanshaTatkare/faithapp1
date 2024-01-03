@@ -34,7 +34,7 @@ const Home = () => {
           </b>
         </p>
         <h4>
-          <b>What`&apos;`s Included</b>
+          <b>What&apos;s Included</b>
         </h4>
         <ul>
           <li className="lists">
