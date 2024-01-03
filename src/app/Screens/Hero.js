@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style.css";
-import courseData from "../Screens/Data/Course.json";
+import courseData from "../Screens/Data";
 const Hero = () => {
   const { instructor, course, about_instructor, testimonial } = courseData;
 
