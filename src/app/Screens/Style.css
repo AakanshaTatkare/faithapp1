@@ -67,7 +67,10 @@ html {
   font-weight: bold;
 }
 
- 
+.maincarousel-container{
+  display: flex;
+  flex-direction: row;
+}
 .carousel-container {
   display: flex;
   
