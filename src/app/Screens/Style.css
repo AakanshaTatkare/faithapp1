@@ -1,0 +1,88 @@
+body,
+html {
+  background-color: #ffff;
+  height: 100%;
+  color: #000;
+}
+.Faith {
+  background-color: white;
+}
+/* The hero image */
+.hero-image {
+  background:  url("/hero.avif");
+  background-position: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 30vw;
+}
+
+.hero-text {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-right: 60%;
+  font-size: 25px;
+  padding-left: 4%;
+  padding-top: 250px;
+}
+
+/*navbar*/
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 40px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  
+}
+
+.nav-link {
+  font-size: 20px;
+  text-decoration: none; /* Remove default underline */
+  position: relative;
+  color: #000; /* Set your desired text color */
+  padding-bottom: 10px;
+}
+.nav-link a{
+  
+  padding-bottom: 10px;
+  width: 30px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 3px solid rgb(98, 43, 143); /* Set your desired underline color and size */
+  
+}
+.active{
+  border-bottom: 3px solid rgb(98, 43, 143);
+}
+
+/* Optional: Style for the active link */
+.nav-link.active {
+  font-weight: bold;
+}
+
+ 
+.carousel-container {
+  display: flex;
+  
+  justify-content:center;
+  
+   
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+button {
+  padding: 20px;
+  margin: 24px;
+
+  cursor: pointer;
+}
