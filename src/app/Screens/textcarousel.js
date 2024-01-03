@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
-import "./style.css"
+import "./Style.css"
 const TextCarousel = () => {
     const textItems = ['lorem ddndi odfoewjf hiahduhewd idhcidshcd jawpeofiew uorhghurhvsa ipwehhfiewf sweufhurwfhc wifhcw wrhgfrwhfv', ' lorem2 222222 ddndi odf duhewd idhcidshcd jawpeofiew uorhghurhvsa ipwehhfiewf sweufhurwfhc wifhcw wrhgfrwhfv' ];
     const [currentItem, setCurrentItem] = useState(0);
